@@ -1,0 +1,21 @@
+{
+    "name": "root/controller",
+    "description": "ExampleController",
+    "authors": [
+        {
+            "name": "Iliya",
+            "email": "genial712@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "CollectionClass\\": "",
+            "Collection\\": "",
+            "IndexController\\": "site",
+            "ContentController\\": "site",
+            "AboutController\\": "site"
+        }
+    },
+    "require": {}
+}
